@@ -13,6 +13,7 @@ class Ex1ViewController: BaseViewController {
     var exercise: Exercise?
     
     override func viewDidLoad() {
+        navigationController?.setEditing(true, animated: false)
         super.viewDidLoad()
     }
     
