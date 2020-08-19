@@ -36,3 +36,4 @@ class DataManagement {
         return (Bundle.main.path(forResource: fileName, ofType: type)) ?? ""
     }
 }
+
