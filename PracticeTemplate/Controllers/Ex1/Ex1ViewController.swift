@@ -19,7 +19,6 @@ class Ex1ViewController: BaseViewController {
     override func viewDidLoad() {
         navigationController?.setNavigationBarHidden(true, animated: false)
         super.viewDidLoad()
-        
     }
     
     
@@ -30,7 +29,7 @@ class Ex1ViewController: BaseViewController {
     @IBAction func buttonTap(_ sender: Any) {
         if let username = userTextField.text , username != "" {
             userLabel.text = "Welcome \(username)"
-        }else {
+        } else {
             userLabel.text = "Please input name"
         }
     }
