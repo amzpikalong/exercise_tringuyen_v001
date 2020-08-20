@@ -19,7 +19,6 @@ class Ex1ViewController: BaseViewController {
     override func viewDidLoad() {
         navigationController?.setNavigationBarHidden(true, animated: false)
         super.viewDidLoad()
-        print("Test Fix code")
     }
     
     
@@ -32,7 +31,6 @@ class Ex1ViewController: BaseViewController {
             userLabel.text = "Welcome \(username)"
         } else {
             userLabel.text = "Please input name"
-            print("Check ABC")
         }
     }
     
